@@ -1,0 +1,19 @@
+hr {
+  border-width: 5px;
+  border-color: grey;
+  border-style: dotted none none;
+  clear: both;
+  width: 40px;
+}
+
+.company-logo {
+  height: 40px;
+}
+
+.container {
+  padding: 75px 0;
+}
+
+.foot {
+  text-align: center;
+}

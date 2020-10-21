@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>AISC IT Programmer Applicant Hands On Examination</title>
+
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-secondary">
+    <a class="navbar-brand" href="index.html">
+      <img class="company-logo" src="images/aisc.png" alt="aisc-logo">
+      AISC-ICT
+    </a>
+  </nav>
+
+  <div class="container">
+    <h2>IT Programmer Applicant Hands On Examination</h2>
+    <ul>
+      <li>Download the following:</li>
+      <ul>
+        <li><a href="https://my.visualstudio.com/Downloads?q=visual%20studio%202015&wt.mc_id=o~msft~vscom~older-downloads" target="_blank">Microsoft Visual Studio 2015</a></li>
+        <li><a href="https://dev.mysql.com/downloads/mysql/" target="_blank">MySQL Community Server</a></li>
+      </ul>
+      <li>Create a new database and name it <strong>db_test</strong> in MySQL Community Server</li>
+      <li>Create the following tables in <strong>db_test</strong>:</li>
+      <ul>
+        <li><strong>user_account</strong></li>
+        <ul>
+          <li>id: primary key, bigint</li>
+          <li>username: varchar(30)</li>
+          <li>password: varchar(250)</li>
+          <li>first_name: varchar(250)</li>
+          <li>middle_name: varchar(250)</li>
+          <li>last_name: varchar(250)</li>
+          <li>is_active: tinyint</li>
+          <li>department_id</li>
+        </ul>
+        <li><strong>department</strong></li>
+        <ul>
+          <li>id: primary key, bigint</li>
+          <li>name: varchar(250)</li>
+        </ul>
+      </ul>
+      <li>Create a Visual Basic Windows Forms Application that will serve as UI for <strong>db_test</strong> in Visual Studio 2015. Name the project with your name.</li>
+      <ul>
+        <li>Project Name Format: <strong>[Last Name]_[First Name]</strong></li>
+      </ul>
+      <li>Your UI should include the following:</li>
+      <ul>
+        <li>Login form</li>
+        <li>Main menu</li>
+        <li>List of user accounts form</li>
+        <li>Create/update user account form</li>
+        <li>List of departments form</li>
+        <li>Create/update department form</li>
+      </ul>
+      <li>Publish your VB Project to GitHub and send us the link</li>
+      <li>OPTIONAL: User account password encryption</li>
+    </ul>
+    <hr>
+    <h5 class="foot">GOOD LUCK!</h5>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+
+</html>
